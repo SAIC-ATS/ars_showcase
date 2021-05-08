@@ -4,18 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../lib/jquery-3.6.0.min.js"></script>
+    <script src="../lib/isotope.pkgd.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../lib/lightbox.css">
     <title>Ars Electronica 2019</title>
 </head>
 <body>
-    <h1>Ars Electronica 2019</h1>
+    <header>
+        <h1>Ars Electronica 2019</h1>
+        <nav class="main-menu">
+            <a href="..">Home</a>
+            <a href="../2018">2018</a>
+            <a href=".">2019</a>
+            <a href="../2020">2020</a>
+        </nav>
+    </header>
+    <main>
+        <div class="cluster-container">
+            <div id="cluster1" class="cluster">
+                <img src="images/bird/bird1.jpg" alt="bird1" class="cluster1">
+                <img src="images/bird/bird2.jpg" alt="bird2" class="cluster1">
+                <img src="images/bird/bird3.jpg" alt="bird3" class="cluster1">
+                <img src="images/bird/bird4.jpg" alt="bird4" class="cluster1">
+                <img src="images/bird/bird5.jpg" alt="bird5" class="cluster1">
+            </div>
+        </div>
+    </main>
+    <footer>SAIC © <span class="current-year">2021</span></footer>
+    
 
-    <nav>
-        <a href="..">Home</a>
-        <a href=".">2018</a>
-        <a href="../2019">2019</a>
-        <a href="../2020">2020</a>
-    </nav>
+    
 
-    <script src="../dist/js/lightbox-plus-jquery.min.js"></script>
+    <script src="../lib/lightbox-plus-jquery.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
