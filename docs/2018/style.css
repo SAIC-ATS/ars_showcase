@@ -14,56 +14,31 @@ body {
     color: var(--fg-color-400);
 }
 
+.grid {
+    background: #DDD;
+    max-width: 1200px;
+}
+  
+/* clear fix */
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
 
-.cluster-container img{
-    width: 100%;
-    height: 100%;
-    object-position: center;
+.grid-item {
+    float: left;
+    width: 100px;
     object-fit: cover;
+    background: #0D8;
+    border: 2px solid #333;
+    border-color: hsla(0, 0%, 0%, 0.7);
 }
 
-.cluster {
-    margin: 0 auto;
-    display: grid;
-    gap: .25rem;
-    max-width: 600px;
-    padding-bottom: 5rem;
-    position: relative;
-}
+.grid-item--width2 { width: 200px; }
+.grid-item--height2 { height: 200px; }
+  
 
-.cluster:hover {
-    background: purple;
-}
-
-.cluster::after {
-    content:"CLUSTER NAME";
-    position: absolute;
-    bottom: 0;
-    left: 1rem;
-    color: var(--bg-color-400);
-    font-size: 3rem;
-    font-weight: 600;
-}
-
-#cluster1 {
-    
-    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
-    grid-template-areas:
-        ". . . . . . . . c c c . . . . . ."
-        ". . . . b b b b c c c . . . . . ."
-        "a a a a b b b b c c c . . . . . ."
-        "a a a a b b b b e e e e e e e e e"
-        "a a a a b b b b e e e e e e e e e"
-        ". . d d d d d d e e e e e e e e e"
-        ". . d d d d d d e e e e e e e e e"
-        ". . d d d d d d . . . . . . . . ."   
-}
-
-.cluster1:nth-of-type(1) { grid-area: a; }
-.cluster1:nth-of-type(2) { grid-area: b; }
-.cluster1:nth-of-type(3) { grid-area: c; }
-.cluster1:nth-of-type(4) { grid-area: d; }
-.cluster1:nth-of-type(5) { grid-area: e; }
 
 footer {
     position: fixed;
