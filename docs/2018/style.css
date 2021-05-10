@@ -147,10 +147,10 @@ footer {
     justify-content: center;
   }
   .grid-item,
-  .grid-sizer { width: 320px; }
+  .grid-sizer { width: 350px; }
 }
 
-/* @media screen and (max-width: 400px) {
+@media screen and (max-width: 400px) {
   .grid-item,
   .grid-sizer { width: 320px; }
-} */
+}
