@@ -2,6 +2,21 @@ generateContent();
 
 function generateContent(){
 
+  for(let i = 0; i < 27; i++) {
+
+    if(i == 0) {
+      let newGridItem = `<img src="images/ars_images_2018/0${i+1}.jpg" alt="ars2018${i+1}" class="grid-item grid-sizer">`
+      $('#grid-container').append(newGridItem);
+    } else {
+      let newGridItem = `<img src="images/ars_images_2018/0${i+1}.jpg" alt="ars2018${i+1}" class="grid-item grid-sizer">`
+      $('#grid-container').append(newGridItem);
+    }
+  }
+}
+
+
+function generateRandomContent(){
+
   for(let i = 0; i < 30; i++) {
 
     if(i == 0) {
@@ -17,7 +32,6 @@ function generateContent(){
       }
     }
   }
-
 }
 
 
