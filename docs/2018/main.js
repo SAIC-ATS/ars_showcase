@@ -10,6 +10,12 @@ $(document).ready(function(){
             $('#cluster1').append(newGridItem);
         }
        
-    }   
+    }
+    // $('.isotope-grid').isotope({
+    //     itemSelector: '.grid-item',
+    //     masonry: {
+    //     columnWidth: 100
+    //     }
+    // });  
 })
 
