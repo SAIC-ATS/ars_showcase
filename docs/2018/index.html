@@ -5,25 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../lib/jquery-3.6.0.min.js"></script>
+    <script src="https://npmcdn.com/imagesloaded@3/imagesloaded.pkgd.js"></script>
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     
     <link rel="stylesheet" href="style.css">
     <title>Ars Electronica 2018</title>
 </head>
 <body>
-    <header>
-        <h1>Ars Electronica 2018</h1>
+    <header class="header-flex">
+      <div class="header__left">
+        <h1 class="site-title"><a href=".."><span class="saic">SAIC ATS</span> <span class="at">+</span> <span class="ars">Ars Electronica</span></a></h1>
+      </div>
+      <div class="header__right">
         <nav class="main-menu">
-            <a href="..">Home</a>
-            <a href="..">2018</a>
-            <a href="../2019">2019</a>
-            <a href="../2020">2020</a>
+          <a class="current-page" href=".">2018</a>
+          <a href="../2019">2019</a>
+          <a href="../2020">2020</a>
         </nav>
+      </div>
     </header>
     <main>
-        <div class="clusters-container">
-            <div id="cluster1" class="cluster grid"></div>
-        </div>
+        <section class="statement">
+          <h2 class="statement__title">2018</h2>
+          <p class="statement__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, et? Molestiae quibusdam in, odit sed esse expedita aperiam, nisi laudantium minima deserunt omnis pariatur quia quam quas eos nostrum ex?</p>
+        </section>
+        
+        <div id="grid-container"></div>
     </main>
     <footer>SAIC © <span class="current-year">2021</span></footer>
     <script src="main.js"></script>
