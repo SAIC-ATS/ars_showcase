@@ -111,8 +111,6 @@ header a {
     /* background: #CCC; */
     margin: 0 auto;
     padding: 1rem;
-    max-width: max-content;
-    min-width: 100%;
 }
   
 /* clear fix */
@@ -124,7 +122,7 @@ header a {
 
 .grid-item,
 .grid-sizer {
-  width: 22.5%;
+  width: 300px;
 }
 
 .grid-item {
@@ -144,15 +142,15 @@ footer {
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   header {
     justify-content: center;
   }
   .grid-item,
-  .grid-sizer { width: 20%; }
+  .grid-sizer { width: 320px; }
 }
 
-@media screen and (min-width: 2000px) {
+/* @media screen and (max-width: 400px) {
   .grid-item,
-  .grid-sizer { width: 10%; }
-}
+  .grid-sizer { width: 320px; }
+} */
