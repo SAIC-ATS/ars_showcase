@@ -1,0 +1,61 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    
+    .header {
+      padding: .5rem .5rem;
+      padding-bottom: 0;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+    }
+
+    .header__left {
+      flex-wrap: wrap;
+      width: 35%;
+    }
+
+    .main-menu {
+      font-size: 1.5em;
+    }
+
+    .main-menu a {
+      margin-left: .5rem;
+    }
+
+    .saic-logo {
+      width: 110px;
+    }
+
+    .ars {
+      font-size: .8em;
+    }
+
+    .at {
+      font-size: 1.4em;
+    }
+
+    .ars, .at {
+      margin-top: -1vmin;
+    }
+
+    /* .header__left {
+      transform-origin: top left;
+    }
+    .header__right {
+      transform-origin: top left;
+    }
+    .header__left, .header__right {
+      transform: scale(0.75);
+      flex-wrap: nowrap;
+    } */
+
+}

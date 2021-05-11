@@ -23,7 +23,7 @@ body {
   color: var(--fg-color-400);
 }
 
-header {
+.header {
   padding: .5rem 1rem;
   display: flex;
   flex-wrap: wrap;
@@ -35,10 +35,11 @@ header {
   position: fixed;
   top: 0;
   background: var(--bg-color-400);
+  /* background: lightpink; */
   z-index: 999;
 }
 
-header a {
+.header a {
   text-decoration: none;
   color: black;
 }
@@ -46,16 +47,17 @@ header a {
 .header__left {
   display: flex;
   align-items: center;
+  font-size: 1rem;
 }
 
 .saic-logo {
-  font-weight: 600;
   width: clamp(150px, 30vmin, 350px);
+  /* background: lightgreen; */
 }
 
 .at {
   font-weight: 200;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   margin: 0 .325em;
   margin-top: 2vmin;
   animation: rotate 4s infinite alternate ease-in-out;
@@ -64,9 +66,10 @@ header a {
 
 .ars {
   font-weight: 200;
-  font-size: 1rem;
+  font-size: 1em;
   font-family: var(--accent-font);
   margin-top: 2vmin;
+  width: max-content;
 }
 
 @keyframes rotate {
@@ -76,11 +79,15 @@ header a {
   100% {transform: rotateZ(405deg);}
 }
 
-.main-menu a {
-  margin-left: 1rem;
-  font-size: 1.25rem;
+.main-menu {
+  display: flex;
+  font-size: 1.25em;
   font-weight: 300;
   font-family: var(--accent-font);
+}
+
+.main-menu a {
+  margin-left: 1rem;
 }
 
 .main-menu a:hover {
@@ -140,16 +147,4 @@ footer {
     margin-top: 1rem;
     padding: .5rem;
     font-size: .75rem;
-}
-
-@media screen and (max-width: 500px) {
-  
-  header {
-    justify-content: center;
-  }
-
-  .header__left, 
-  .header__right {
-    padding: .5rem;
-  }
 }
