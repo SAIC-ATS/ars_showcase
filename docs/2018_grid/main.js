@@ -14,6 +14,25 @@ function generateWrappedContent(){
 }
 
 
+let opacity = .75;
+$(window).scroll(function() {
+
+  if(($(window).scrollTop()/800 - .5) < .75) {
+    opacity = $(window).scrollTop()/800 - .5;
+  }
+
+  $('#back-to-top').css("opacity", `${opacity}`);
+});
+
+$('#back-to-top').click(function() {
+  // When the user clicks on the button, scroll to the top of the document
+    $('html, body').animate({
+        scrollTop: 0
+    }, 700);
+    return false;
+});
+
+
 function generateContent(){
 
   for(let i = 0; i < 27; i++) {

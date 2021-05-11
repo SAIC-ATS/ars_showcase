@@ -151,6 +151,7 @@ footer {
 
 #back-to-top {
   position: fixed;
+  z-index: 999;
   bottom: .75em;
   right: .75em;
   background: rgba(0, 0, 0, .8);
@@ -161,22 +162,22 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0;
 }
 
+#back-to-top::after,
 #back-to-top::before {
   content: "";
   position: absolute;
   width: 40%;
-  height: 8%;
-  transform: translateX(29%) rotateZ(45deg);
-  background: var(--acc-color-400);
+  height: 6%;
+  background: #fefefe;
+}
+
+#back-to-top::before {
+  transform: translateX(30%) rotateZ(45deg);
 }
 
 #back-to-top::after {
-  content: "";
-  position: absolute;
-  width: 40%;
-  height: 8%;
-  transform: translateX(-29%) rotateZ(-45deg);
-  background: var(--acc-color-400);
+  transform: translateX(-30%) rotateZ(-45deg);
 }
