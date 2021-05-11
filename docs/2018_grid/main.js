@@ -1,16 +1,32 @@
-generateContent();
+// generateContent();
+// generateDivs();
+generateWrappedContent();
+
+function generateWrappedContent(){
+
+  for(let i = 0; i < 27; i++) {
+    let newGridItem = `
+    <div class="grid-item">
+      <img src="images/ars_images_2018/0${i+1}.jpg" alt="ars2018${i+1}">
+    </div>`
+    $('#grid-container').append(newGridItem);
+  }
+}
+
 
 function generateContent(){
 
   for(let i = 0; i < 27; i++) {
+    let newGridItem = `<img src="images/ars_images_2018/0${i+1}.jpg" alt="ars2018${i+1}" class="grid-item">`
+    $('#grid-container').append(newGridItem);
+  }
+}
 
-    if(i == 0) {
-      let newGridItem = `<img src="images/ars_images_2018/0${i+1}.jpg" alt="ars2018${i+1}" class="grid-item">`
-      $('#grid-container').append(newGridItem);
-    } else {
-      let newGridItem = `<img src="images/ars_images_2018/0${i+1}.jpg" alt="ars2018${i+1}" class="grid-item">`
-      $('#grid-container').append(newGridItem);
-    }
+function generateDivs(){
+
+  for(let i = 0; i < 27; i++) {
+    let newGridItem = `<div class="grid-item"></div>`
+    $('#grid-container').append(newGridItem);
   }
 }
 
