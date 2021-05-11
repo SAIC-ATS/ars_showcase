@@ -10,7 +10,12 @@
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) {
     
-    .header {
+    .wrapper {
+      height: 100vh;
+      position: absolute;
+    }
+
+    header {
       padding: .5rem .5rem;
       padding-bottom: 0;
       justify-content: space-between;
@@ -46,16 +51,15 @@
     .ars, .at {
       margin-top: -1vmin;
     }
+}
 
-    /* .header__left {
-      transform-origin: top left;
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .ars, .at {
+      margin-top: 1vmin;
     }
-    .header__right {
-      transform-origin: top left;
-    }
-    .header__left, .header__right {
-      transform: scale(0.75);
-      flex-wrap: nowrap;
-    } */
-
 }

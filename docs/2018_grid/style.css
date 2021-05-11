@@ -23,7 +23,7 @@ body {
   color: var(--fg-color-400);
 }
 
-.header {
+header {
   padding: .5rem 1rem;
   display: flex;
   flex-wrap: wrap;
@@ -39,7 +39,7 @@ body {
   z-index: 999;
 }
 
-.header a {
+header a {
   text-decoration: none;
   color: black;
 }
@@ -147,4 +147,36 @@ footer {
     margin-top: 1rem;
     padding: .5rem;
     font-size: .75rem;
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: .75em;
+  right: .75em;
+  background: rgba(0, 0, 0, .8);
+  border-radius: 6px;
+  color: white;
+  width: 10vmin;
+  height: 10vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#back-to-top::before {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 8%;
+  transform: translateX(29%) rotateZ(45deg);
+  background: var(--acc-color-400);
+}
+
+#back-to-top::after {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 8%;
+  transform: translateX(-29%) rotateZ(-45deg);
+  background: var(--acc-color-400);
 }
