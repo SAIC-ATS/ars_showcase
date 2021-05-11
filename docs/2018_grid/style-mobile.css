@@ -16,8 +16,8 @@
     }
 
     header {
-      padding: .5rem .5rem;
-      padding-bottom: 0;
+      padding: .5rem;
+      padding-bottom: .25rem;
       justify-content: space-between;
       position: sticky;
       top: 0;
