@@ -34,7 +34,7 @@ header {
   font-size: .75rem;
   position: fixed;
   top: 0;
-  background: #fffa;
+  background: var(--bg-color-400);
   z-index: 999;
 }
 
@@ -48,30 +48,36 @@ header a {
   align-items: center;
 }
 
-.saic {
+.saic-logo {
   font-weight: 600;
+  width: clamp(150px, 30vmin, 350px);
 }
 
 .at {
   font-weight: 200;
   font-size: 1.5rem;
-  margin: 0 .25em;
-  animation: rotate 2s infinite linear;
+  margin: 0 .325em;
+  margin-top: 2vmin;
+  animation: rotate 4s infinite alternate ease-in-out;
   display: inline-block;
-}
-
-@keyframes rotate {
-  from {transform: rotateZ(0deg);}
-  to {transform: rotateZ(360deg);}
 }
 
 .ars {
   font-weight: 200;
+  font-size: 1rem;
   font-family: var(--accent-font);
+  margin-top: 2vmin;
+}
+
+@keyframes rotate {
+  0% {transform: rotateZ(45deg);}
+  30% {transform: rotateZ(45deg);}
+  70% {transform: rotateZ(405deg);}
+  100% {transform: rotateZ(405deg);}
 }
 
 .main-menu a {
-  margin: 0 1rem;
+  margin-left: 1rem;
   font-size: 1.25rem;
   font-weight: 300;
   font-family: var(--accent-font);
@@ -89,7 +95,7 @@ header a {
   margin: 0 auto;
   width: 100vw;
   max-width: 70ch;
-  padding: 3rem 1rem;
+  padding: 3rem 2rem;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -108,9 +114,11 @@ header a {
 }
 
 #grid-container {
-    /* background: #CCC; */
+    background: #fcc;
     margin: 0 auto;
-    padding: 1rem;
+    /* padding-left: 16px; */
+    justify-content: center;
+    width: 500px;
 }
   
 /* clear fix */
@@ -120,16 +128,16 @@ header a {
     clear: both;
 }
 
-.grid-item,
-.grid-sizer {
-  width: 300px;
+.grid-item {
+  width: 360px;
 }
 
 .grid-item {
     float: left;
     object-fit: cover;
     border-color: hsla(0, 0%, 0%, 0.7);
-    margin-bottom: 10px;
+    /* margin-bottom: 1rem; */
+    padding: .2em;
 }
 
 
@@ -139,18 +147,36 @@ header a {
 footer {
     text-align: center;
     margin-top: 1rem;
+    padding: .5rem;
+    font-size: .75rem;
 }
 
+@media screen and (max-width: 720px) {
+  
+  .grid-item {
+    width: 100%;
+  }
+}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
+  
   header {
     justify-content: center;
   }
-  .grid-item,
-  .grid-sizer { width: 350px; }
+
+  .header__left, 
+  .header__right {
+    padding: .5rem;
+  }
 }
 
-@media screen and (max-width: 400px) {
+
+
+/* @media screen and (max-width: 320px) {
+
   .grid-item,
-  .grid-sizer { width: 320px; }
-}
+  .grid-sizer {
+    width: 280px;
+  }
+
+} */

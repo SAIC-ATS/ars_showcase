@@ -5,10 +5,10 @@ function generateContent(){
   for(let i = 0; i < 27; i++) {
 
     if(i == 0) {
-      let newGridItem = `<img src="images/ars_images_2018/0${i+1}.jpg" alt="ars2018${i+1}" class="grid-item grid-sizer">`
+      let newGridItem = `<img src="images/ars_images_2018/0${i+1}.jpg" alt="ars2018${i+1}" class="grid-item">`
       $('#grid-container').append(newGridItem);
     } else {
-      let newGridItem = `<img src="images/ars_images_2018/0${i+1}.jpg" alt="ars2018${i+1}" class="grid-item grid-sizer">`
+      let newGridItem = `<img src="images/ars_images_2018/0${i+1}.jpg" alt="ars2018${i+1}" class="grid-item">`
       $('#grid-container').append(newGridItem);
     }
   }

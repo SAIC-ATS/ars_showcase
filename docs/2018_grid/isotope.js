@@ -3,8 +3,8 @@ let $container = $('#grid-container').imagesLoaded(function(){
     itemSelector: '.grid-item',
     // percentPosition: true,
     masonry: {
-      columnWidth: 100,
-      gutter: 5,
+      columnWidth: 40,
+      gutter: 0,
       fitWidth: true
     }
   });
