@@ -5,8 +5,8 @@ lightbox.option({
     'wrapAround': true,
     'alwaysShowNavOnTouchDevices': true,
     'disableScrolling': true,
-    'fadeDuration': 10,
-    'imageFadeDuration': 10,
+    'fadeDuration': 300,
+    'imageFadeDuration': 50,
     'showImageNumberLabel': false,
     'positionFromTop': 100,
   })

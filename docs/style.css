@@ -1,0 +1,157 @@
+.section {
+    height: 100vh;
+}
+
+.top {
+    display: grid;
+    place-items: center;
+}
+
+.top-section {
+    display: grid;
+    grid-template-areas:
+        "title title title"
+        "subtitle subtitle subtitle"
+        "statement statement statement"
+        "logo-saic . logo-ars"
+        ". down .";
+    max-width: 70ch;
+    padding: 1.5rem;
+    position: relative;
+}
+
+.home-title, .home-subtitle {
+    text-align: center;
+    font-family: var(--accent-font);
+}
+
+.home-title {
+    font-weight: 500;
+    font-size: clamp(0, 4vmin, 5rem);
+    grid-area: title;
+}
+.home-subtitle {
+    font-weight: 300;
+    font-size: clamp(0, 4vmin, 5rem);
+    grid-area: subtitle;
+}
+.home-statement {
+    grid-area: statement;
+    margin: 1.5em 0;
+    font-size: 1.075rem;
+}
+.saic-logo {grid-area: logo-saic; place-self: end left;}
+.ars-logo {grid-area: logo-ars; place-self: end right;}
+
+.top-section img {
+    width: 70%;
+    object-fit: contain;
+}
+
+.main-menu {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100%;
+}
+
+.main-menu a {
+    margin: unset;
+    position: relative;
+    text-decoration: none;
+    font-size: clamp(2rem, 16vmin, 5rem);
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-item .overlay {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background: var(--fg-color-a5);
+}
+
+.menu-item .year {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.a2018 { background-image: url(images/home/1.jpg);}
+.a2019 { background-image: url(images/home/2.jpg);}
+.a2020 { background-image: url(images/home/3.jpg);}
+
+.down-arrow {
+    animation-name: arrow;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    grid-area: down;
+    place-self: center;
+}
+
+.spine {
+    width: 2px;
+    height: 36px;
+    background: #111;
+    margin: 2px 0;
+}
+
+.point { position: relative;}
+.point::before, .point::after {
+    content: "";
+    width: 2px;
+    height: 16px;
+    background: #111;
+    position: absolute;
+}
+
+.point::before { transform: translate(250%, -100%) rotateZ(40deg); }
+.point::after { transform: translate(-250%, -100%) rotateZ(-40deg); }
+
+@keyframes arrow {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@media only screen 
+  and (max-width: 667px) {
+    .main-menu {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen
+    and (max-width: 500px) {
+        .top-section {
+            grid-template-areas:
+                "title"
+                "subtitle"
+                "statement"
+                "logo-saic"
+                "logo-ars"
+                "down";
+            grid-row-gap: 1rem;
+        }
+        .saic-logo {grid-area: logo-saic; place-self: center; margin-bottom: 1em;}
+        .ars-logo {grid-area: logo-ars; place-self: center;}
+        .top-section img {
+            width: 50%;
+            object-fit: contain;
+        }
+    }
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .main-menu {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

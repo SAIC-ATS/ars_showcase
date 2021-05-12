@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100..900&family=Syne:wght@400..800&display=swap');
 
-/* font-family: 'Assistant', sans-serif; */
-  /* font-family: 'MuseoModerno', cursive; */
-  /* font-family: Arial; */
-  /* font-family: 'Syne', sans-serif; */
 
 :root {
     --fg-color: hsl(100, 0%, 4%);
@@ -12,7 +8,8 @@
     --fg-color-a8: hsla(100, 0%, 4%, 0.8);
     --bg-color: hsl(100, 0%, 98%);
     --acc-color: hsl(10, 80%, 60%);
-    --primary-font: 'Assistant', sans-serif;--accent-font: 'MuseoModerno', cursive;
+    --primary-font: 'Assistant', sans-serif;
+    --accent-font: 'MuseoModerno', cursive;
     font-size: clamp(14px, 2.5vw, 20px);
 }
 
@@ -50,6 +47,10 @@ header a {
   display: flex;
   align-items: center;
   font-size: 1rem;
+}
+
+.header__right {
+  text-align: right;
 }
 
 .saic-logo {
@@ -93,12 +94,16 @@ header a {
   margin-left: 1rem;
 }
 
-.main-menu a:hover {
+.main-menu a:hover, .contact:hover {
   color: var(--acc-color);
 }
 
 .current-page {
   border-bottom: 2px solid black;
+}
+
+.contact {
+  font-size: 1.5rem;
 }
 
 .statement {

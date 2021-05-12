@@ -1,0 +1,16 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.disposition {
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+    color: black;
+    max-width: max-content;
+    padding: 1em;
+    margin: 0 auto;
+}
