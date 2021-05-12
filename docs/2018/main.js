@@ -14,7 +14,7 @@ function createLightboxGallery() {
   for(let i = 0; i < 27; i++) {
     let newGridItem = `
     <div class="grid-item">
-      <a href="images/fullsize/${i+1}.jpg" data-lightbox="2018" data-title="caption" data-alt="alt-text">
+      <a href="images/fullsize/${i+1}.jpg" data-lightbox="2018" data-title="ja;kdfl aldkfa aslk fasldfkj alsdk jfasl jasl;kfjasl kasd;l kfasdl;faksdjfals;kfjasl;d kjasldfk jas" data-alt="alt-text">
         <img src="images/thumbs/${i+1}.jpg" alt="ars2018_${i+1}" class="grid-img"
       </a>
     </div>`
