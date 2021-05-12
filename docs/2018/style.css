@@ -140,7 +140,7 @@ header a {
   overflow: hidden;
 }
 
-.grid-item > img:hover {
+.grid-item img:hover {
   transform: scale(1.125);
   transition: transform 1s;
 }

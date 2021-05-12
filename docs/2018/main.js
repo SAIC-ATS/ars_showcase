@@ -1,4 +1,4 @@
-createLightboxGallery();
+// createLightboxGallery();
 
 // function createGallery() {
 //   for(let i = 0; i < 27; i++) {
@@ -14,8 +14,8 @@ function createLightboxGallery() {
   for(let i = 0; i < 27; i++) {
     let newGridItem = `
     <div class="grid-item">
-      <a href="images/fullsize/${i+1}.jpg" data-lightbox="2018" data-title="ja;kdfl aldkfa aslk fasldfkj alsdk jfasl jasl;kfjasl kasd;l kfasdl;faksdjfals;kfjasl;d kjasldfk jas" data-alt="alt-text">
-        <img src="images/thumbs/${i+1}.jpg" alt="ars2018_${i+1}" class="grid-img"
+      <a href="images/fullsize/${i+1}.jpg" data-lightbox="2018" data-title="image caption" data-alt="alt-text">
+        <img src="images/thumbs/${i+1}.jpg" alt="ars2018_${i+1}" class="grid-img">
       </a>
     </div>`
     $('#grid-container').append(newGridItem);
@@ -23,17 +23,15 @@ function createLightboxGallery() {
 }
 
 lightbox.option({
-  'resizeDuration': 200,
+  'resizeDuration': 0,
   'wrapAround': true,
   'alwaysShowNavOnTouchDevices': true,
   'disableScrolling': true,
-  'fadeDuration': 600,
-  'imageFadeDuration': 600,
+  'fadeDuration': 0,
+  'imageFadeDuration': 0,
   'showImageNumberLabel': false,
-  'positionFromTop': 100,
+  'positionFromTop': 50,
 })
-
-
 
 ///////// SCROLL TO TOP
 
