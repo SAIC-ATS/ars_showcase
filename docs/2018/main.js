@@ -1,36 +1,12 @@
-// createLightboxGallery();
-
-// function createGallery() {
-//   for(let i = 0; i < 27; i++) {
-//     let newGridItem = `
-//     <div class="grid-item">
-//       <img src="images/thumbs/${i+1}.jpg" alt="ars2018_${i+1}" class="grid-img">
-//     </div>`
-//     $('#grid-container').append(newGridItem);
-//   }
-// }
-
-function createLightboxGallery() {
-  for(let i = 0; i < 27; i++) {
-    let newGridItem = `
-    <div class="grid-item">
-      <a href="images/fullsize/${i+1}.jpg" data-lightbox="2018" data-title="image caption" data-alt="alt-text">
-        <img src="images/thumbs/${i+1}.jpg" alt="ars2018_${i+1}" class="grid-img">
-      </a>
-    </div>`
-    $('#grid-container').append(newGridItem);
-  }
-}
-
 lightbox.option({
-  'resizeDuration': 0,
+  'resizeDuration': 200,
   'wrapAround': true,
   'alwaysShowNavOnTouchDevices': true,
   'disableScrolling': true,
-  'fadeDuration': 0,
-  'imageFadeDuration': 0,
+  'fadeDuration': 10,
+  'imageFadeDuration': 10,
   'showImageNumberLabel': false,
-  'positionFromTop': 50,
+  'positionFromTop': 100,
 })
 
 ///////// SCROLL TO TOP

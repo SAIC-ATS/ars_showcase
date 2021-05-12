@@ -54,7 +54,6 @@ header a {
 
 .saic-logo {
   width: clamp(150px, 30vmin, 350px);
-  /* background: lightgreen; */
 }
 
 .at {
@@ -127,7 +126,7 @@ header a {
 #grid-container {
     /* background: #fcc; */
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: .5rem;
     padding: .5rem;
 }
@@ -139,6 +138,11 @@ header a {
   min-height: 300px;
   overflow: hidden;
 }
+
+.grid-columns-1 { grid-column: span 1; }
+.grid-columns-2 { grid-column: span 2; }
+.grid-columns-3 { grid-column: span 3; }
+.grid-columns-4 { grid-column: span 4; }
 
 .grid-item img:hover {
   transform: scale(1.125);

@@ -14,7 +14,7 @@ function loadContent() {
         for(const d of data) {
             if(d.year == year){
                 let newGridItem = `
-                <div class="grid-item">
+                <div class="grid-item grid-columns-${d.columns}">
                   <a href="../images/${d.year}/fullsize/${d.filename}" data-lightbox="${d.year}" data-title="${d.caption}" data-alt="${d.alt_text}">
                     <img src="../images/${d.year}/thumbs/${d.filename}" alt="${d.alt_text}" class="grid-img">
                   </a>
