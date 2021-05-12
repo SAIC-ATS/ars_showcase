@@ -14,3 +14,7 @@ footer {
     padding: 1em;
     margin: 0 auto;
 }
+
+.disposition:hover {
+    color: var(--acc-color);
+}
