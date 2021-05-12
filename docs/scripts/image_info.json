@@ -1,164 +1,137 @@
 [
     {
         "filename":"1.jpg",
-        "alt_text":"alt_text_1",
-        "caption":"caption_1",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"2.jpg",
-        "alt_text":"alt_text_2",
-        "caption":"caption_2",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"3.jpg",
-        "alt_text":"alt_text_3",
-        "caption":"caption_3",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"4.jpg",
-        "alt_text":"alt_text_2",
-        "caption":"caption_2",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"5.jpg",
-        "alt_text":"alt_text_2",
-        "caption":"caption_2",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"6.jpg",
-        "alt_text":"alt_text_2",
-        "caption":"caption_2",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"7.jpg",
-        "alt_text":"alt_text_2",
-        "caption":"caption_2",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"8.jpg",
-        "alt_text":"alt_text_2",
-        "caption":"caption_2",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"9.jpg",
-        "alt_text":"alt_text_2",
-        "caption":"caption_2",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"10.jpg",
-        "alt_text":"alt_text_2",
-        "caption":"caption_2",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"11.jpg",
-        "alt_text":"alt_text_2",
-        "caption":"caption_2",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"12.jpg",
-        "alt_text":"alt_text_2",
-        "caption":"caption_2",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"13.jpg",
-        "alt_text":"alt_text_2",
-        "caption":"caption_2",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"14.jpg",
-        "alt_text":"alt_text_2",
-        "caption":"caption_2",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"15.jpg",
-        "alt_text":"alt_text_2",
-        "caption":"caption_2",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"16.jpg",
-        "alt_text":"alt_text_2",
-        "caption":"caption_2",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"17.jpg",
-        "alt_text":"alt_text_2",
-        "caption":"caption_2",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"18.jpg",
-        "alt_text":"alt_text_2",
-        "caption":"caption_2",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"19.jpg",
-        "alt_text":"alt_text_2",
-        "caption":"caption_2",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"20.jpg",
-        "alt_text":"alt_text_2",
-        "caption":"caption_2",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"21.jpg",
-        "alt_text":"alt_text_2",
-        "caption":"caption_2",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"22.jpg",
-        "alt_text":"alt_text_2",
-        "caption":"caption_2",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"23.jpg",
-        "alt_text":"alt_text_2",
-        "caption":"caption_2",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"24.jpg",
-        "alt_text":"alt_text_2",
-        "caption":"caption_2",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"25.jpg",
-        "alt_text":"alt_text_2",
-        "caption":"caption_2",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"26.jpg",
-        "alt_text":"alt_text_2",
-        "caption":"caption_2",
+        "alt_text":"alt_text",
         "year":"2018"
     },
     {
         "filename":"27.jpg",
-        "alt_text":"alt_text_2",
-        "caption":"caption_2",
+        "alt_text":"alt_text",
         "year":"2018"
     }
 ]
