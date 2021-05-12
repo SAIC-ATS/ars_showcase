@@ -13,23 +13,21 @@ function generateWrappedContent(){
   }
 }
 
-
-let opacity = .75;
 $(window).scroll(function() {
 
-  if(($(window).scrollTop()/800 - .5) < .75) {
-    opacity = $(window).scrollTop()/800 - .5;
+  if($(window).scrollTop() > 800) {
+    $('.back-to-top').addClass('show');
+  } else {
+    $('.back-to-top').removeClass('show');
   }
-
-  $('#back-to-top').css("opacity", `${opacity}`);
 });
 
-$('#back-to-top').click(function() {
+$('#back-to-top').on('click', function(e) {
   // When the user clicks on the button, scroll to the top of the document
+  e.preventDefault();
     $('html, body').animate({
         scrollTop: 0
     }, 700);
-    return false;
 });
 
 

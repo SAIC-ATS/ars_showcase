@@ -7,9 +7,9 @@
   /* font-family: 'Syne', sans-serif; */
 
 :root {
-    --fg-color-400: hsl(100, 0%, 4%);
-    --bg-color-400: hsl(100, 0%, 98%);
-    --acc-color-400: hsl(10, 80%, 60%);
+    --fg-color: hsl(100, 0%, 4%);
+    --bg-color: hsl(100, 0%, 98%);
+    --acc-color: hsl(10, 80%, 60%);
     --primary-font: 'Assistant', sans-serif;--accent-font: 'MuseoModerno', cursive;
     font-size: clamp(14px, 2.5vw, 20px);
 }
@@ -19,22 +19,22 @@
 
 body {
   font-family: var(--primary-font);
-  background: var(--bg-color-400);
-  color: var(--fg-color-400);
+  background: var(--bg-color);
+  color: var(--fg-color);
 }
 
 header {
   padding: .5rem 1rem;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-end;
   width: 100vw;
   justify-content: space-between;
   text-align: center;
   font-size: .75rem;
   position: fixed;
   top: 0;
-  background: var(--bg-color-400);
+  background: var(--bg-color);
   /* background: lightpink; */
   z-index: 999;
 }
@@ -81,9 +81,11 @@ header a {
 
 .main-menu {
   display: flex;
-  font-size: 1.25em;
+  font-size: 1.5em;
   font-weight: 300;
   font-family: var(--accent-font);
+  
+  /* background: green; */
 }
 
 .main-menu a {
@@ -91,7 +93,7 @@ header a {
 }
 
 .main-menu a:hover {
-  color: var(--acc-color-400);
+  color: var(--acc-color);
 }
 
 .current-page {
@@ -149,35 +151,47 @@ footer {
     font-size: .75rem;
 }
 
-#back-to-top {
+.back-to-top {
   position: fixed;
   z-index: 999;
   bottom: .75em;
   right: .75em;
-  background: rgba(0, 0, 0, .8);
+  background: rgba(0, 0, 0, .5);
   border-radius: 6px;
   color: white;
-  width: 10vmin;
-  height: 10vmin;
+  width: 6vmin;
+  height: 6vmin;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color .25s, opacity .5s, visibility .5s;
   opacity: 0;
+  visibility: hidden;
 }
 
-#back-to-top::after,
-#back-to-top::before {
+.back-to-top::after,
+.back-to-top::before {
   content: "";
   position: absolute;
   width: 40%;
   height: 6%;
-  background: #fefefe;
+  background: var(--bg-color);
 }
 
-#back-to-top::before {
+.back-to-top:hover {
+  cursor: pointer;
+  background: var(--acc-color);
+}
+
+.back-to-top::before {
   transform: translateX(30%) rotateZ(45deg);
 }
 
-#back-to-top::after {
+.back-to-top::after {
   transform: translateX(-30%) rotateZ(-45deg);
+}
+
+.show {
+  opacity: 1;
+  visibility: visible;
 }
