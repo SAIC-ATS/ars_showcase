@@ -8,6 +8,8 @@
 
 :root {
     --fg-color: hsl(100, 0%, 4%);
+    --fg-color-a5: hsla(100, 0%, 4%, 0.5);
+    --fg-color-a8: hsla(100, 0%, 4%, 0.8);
     --bg-color: hsl(100, 0%, 98%);
     --acc-color: hsl(10, 80%, 60%);
     --primary-font: 'Assistant', sans-serif;--accent-font: 'MuseoModerno', cursive;
@@ -135,13 +137,19 @@ header a {
   display: block;
   height: 40vmin;
   min-height: 300px;
-  object-position: center;
+  overflow: hidden;
+}
+
+.grid-item > img:hover {
+  transform: scale(1.125);
+  transition: transform 1s;
 }
 
 .grid-item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: transform .5s;
 }
 
 footer {
@@ -156,11 +164,13 @@ footer {
   z-index: 999;
   bottom: .75em;
   right: .75em;
-  background: rgba(0, 0, 0, .5);
+  background: var(--fg-color-a5);
   border-radius: 6px;
   color: white;
   width: 6vmin;
   height: 6vmin;
+  min-width: 3rem;
+  min-height: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -180,7 +190,7 @@ footer {
 
 .back-to-top:hover {
   cursor: pointer;
-  background: var(--acc-color);
+  background: var(--fg-color-a8);
 }
 
 .back-to-top::before {

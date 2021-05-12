@@ -1,9 +1,9 @@
-@media only screen 
+/* @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
-}
+} */
 
 @media only screen 
   and (min-device-width: 375px) 
@@ -21,6 +21,7 @@
       justify-content: space-between;
       position: sticky;
       top: 0;
+      align-items: center;
     }
 
     .header__left {
@@ -42,6 +43,7 @@
 
     .ars {
       font-size: .8em;
+      font-weight: 400;
     }
 
     .at {
@@ -50,6 +52,11 @@
 
     .ars, .at {
       margin-top: -1vmin;
+    }
+
+    .back-to-top {
+      bottom: 2em;
+      right: 1em;
     }
 }
 
