@@ -4,7 +4,7 @@ function createGallery() {
   for(let i = 0; i < 27; i++) {
     let newGridItem = `
     <div class="grid-item">
-      <img src="images/ars_images_2018/0${i+1}.jpg" alt="ars2018${i+1}">
+      <img src="images/thumbs/${i+1}.jpg" alt="ars2018_${i+1}">
     </div>`
     $('#grid-container').append(newGridItem);
   }
