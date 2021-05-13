@@ -1,5 +1,9 @@
+body {
+    overflow: unset;
+}
+
 .section {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .top {
@@ -7,15 +11,18 @@
     place-items: center;
 }
 
+.bottom {height: 100vh;}
+
 .top-section {
     display: grid;
     grid-template-areas:
         "title title title"
         "subtitle subtitle subtitle"
+        "saic saic saic"
         "statement statement statement"
         "logo-saic . logo-ars"
         ". down .";
-    max-width: 70ch;
+    max-width: 75ch;
     padding: 1.5rem;
     position: relative;
 }
@@ -27,18 +34,24 @@
 
 .home-title {
     font-weight: 500;
-    font-size: clamp(0, 4vmin, 5rem);
+    font-size: clamp(1px, 4vmin, 5rem);
     grid-area: title;
 }
 .home-subtitle {
     font-weight: 300;
-    font-size: clamp(0, 4vmin, 5rem);
+    font-size: clamp(1px, 4vmin, 5rem);
     grid-area: subtitle;
+}
+.home-saic {
+    grid-area: saic;
+    text-align: center;
+    font-weight: 350;
+    font-size: clamp(1px, 2.5vmin, 2rem);
 }
 .home-statement {
     grid-area: statement;
     margin: 1.5em 0;
-    font-size: 1.075rem;
+    font-size: .85rem;
 }
 .saic-logo {grid-area: logo-saic; place-self: end left;}
 .ars-logo {grid-area: logo-ars; place-self: end right;}
@@ -131,6 +144,7 @@
             grid-template-areas:
                 "title"
                 "subtitle"
+                "saic"
                 "statement"
                 "logo-saic"
                 "logo-ars"
