@@ -91,9 +91,9 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.a2018 { background-image: url(images/home/1.jpg);}
-.a2019 { background-image: url(images/home/2.jpg);}
-.a2020 { background-image: url(images/home/3.jpg);}
+.a2018 { background-image: url(images/home/2018.jpg);}
+.a2019 { background-image: url(images/home/2019.jpg);}
+.a2020 { background-image: url(images/home/2020.jpg); background-position-x: -500px !important;}
 
 .down-arrow {
     animation-name: arrow;
