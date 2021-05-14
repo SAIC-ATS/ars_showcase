@@ -50,12 +50,12 @@ body {
 
 .home-title {
     font-weight: 500;
-    font-size: clamp(1.85rem, 4vmin, 5rem);
+    font-size: clamp(1.85rem, 4vmin, 3em);
     grid-area: title;
 }
 .home-subtitle {
     font-weight: 300;
-    font-size: clamp(1.725rem, 4vmin, 5rem);
+    font-size: clamp(1.725rem, 4vmin, 2.5rem);
     grid-area: subtitle;
 }
 .home-saic {
