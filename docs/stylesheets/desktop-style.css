@@ -4,7 +4,7 @@
 
 :root {
     --fg-color: hsl(100, 0%, 4%);
-    --fg-color-a5: hsla(100, 0%, 4%, 0.5);
+    --fg-color-a5: hsla(100, 0%, 4%, 0.4);
     --fg-color-a8: hsla(100, 0%, 4%, 0.8);
     --bg-color: hsl(100, 0%, 98%);
     --acc-color: hsl(10, 80%, 60%);

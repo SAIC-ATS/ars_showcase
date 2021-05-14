@@ -9,6 +9,23 @@ body {
 .top {
     display: grid;
     place-items: center;
+    margin-bottom: 1.5rem;
+}
+.mid {
+  display: grid;
+  place-items: center;
+  background: salmon;
+  padding: 2rem;
+}
+.contact {
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+.contact:hover {
+  color: black;
 }
 
 .bottom {height: 100vh;}
@@ -16,12 +33,11 @@ body {
 .top-section {
     display: grid;
     grid-template-areas:
-        "title title title"
-        "subtitle subtitle subtitle"
-        "saic saic saic"
-        "statement statement statement"
-        "logo-saic . logo-ars"
-        ". down .";
+        "title"
+        "subtitle"
+        "saic"
+        "statement"
+        "logos";
     max-width: 75ch;
     padding: 1.5rem;
     position: relative;
@@ -34,32 +50,46 @@ body {
 
 .home-title {
     font-weight: 500;
-    font-size: clamp(1px, 4vmin, 5rem);
+    font-size: clamp(1.85rem, 4vmin, 5rem);
     grid-area: title;
 }
 .home-subtitle {
     font-weight: 300;
-    font-size: clamp(1px, 4vmin, 5rem);
+    font-size: clamp(1.725rem, 4vmin, 5rem);
     grid-area: subtitle;
 }
 .home-saic {
     grid-area: saic;
     text-align: center;
-    font-weight: 350;
-    font-size: clamp(1px, 2.5vmin, 2rem);
+    font-weight: 700;
+    font-size: clamp(1rem, 2.5vmin, 2rem);
 }
 .home-statement {
     grid-area: statement;
     margin: 1.5em 0;
-    font-size: .85rem;
+    font-size: 1rem;
 }
-.saic-logo {grid-area: logo-saic; place-self: end left;}
-.ars-logo {grid-area: logo-ars; place-self: end right;}
+.home-statement p {
+  margin-bottom: .75em;
+}
 
-.top-section img {
-    width: 70%;
-    object-fit: contain;
+.logos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: .75rem;
 }
+.logo {
+  width: 60%;
+}
+.logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.ars-logo {
+  place-self: end;
+}
+
 
 .main-menu {
     display: grid;
@@ -157,21 +187,15 @@ body {
 @media only screen
     and (max-width: 500px) {
         .top-section {
-            grid-template-areas:
-                "title"
-                "subtitle"
-                "saic"
-                "statement"
-                "logo-saic"
-                "logo-ars"
-                "down";
             grid-row-gap: 0rem;
         }
-        .saic-logo {grid-area: logo-saic; place-self: center; margin-bottom: 1em;}
-        .ars-logo {grid-area: logo-ars; place-self: center;}
-        .top-section img {
-            width: 50%;
-            object-fit: contain;
+        .logos {
+          grid-template-columns: 1fr;
+          place-items: center;
+        }
+        .logo {width: 40%;}
+        .ars-logo {
+          place-self: center;
         }
     }
 
@@ -180,10 +204,15 @@ body {
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) {
 
+    .home-statement {
+      font-size: 1rem;
+    }
+
     .main-menu {
         display: grid;
         grid-template-columns: 1fr;
     }
     .a2018 { background-position-y: -240px !important;}
     .a2019 { background-position-y: -50px !important;}
+
 }
