@@ -64,7 +64,7 @@ body {
 .main-menu {
     display: grid;
     grid-gap: 0;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     height: 100%;
 }
 
@@ -72,10 +72,14 @@ body {
     margin: unset;
     position: relative;
     text-decoration: none;
-    font-size: clamp(2rem, 16vmin, 5rem);
+    font-size: clamp(2rem, 10vmin, 5rem);
     color: white;
     background-size: cover;
     background-position: center;
+}
+
+.main-menu h3 {
+  font-weight: 300;
 }
 
 .menu-item .overlay {
@@ -91,9 +95,19 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.coming-soon {
+  position: absolute;
+  font-size: clamp(1rem, 2.5vmin, 2rem);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 120%);
+  width: max-content;
+}
+
 .a2018 { background-image: url(images/home/2018.jpg);}
 .a2019 { background-image: url(images/home/2019.jpg);}
 .a2020 { background-image: url(images/home/2020.jpg); background-position-x: -500px !important;}
+.a2021 { background: black;}
 
 .down-arrow {
     animation-name: arrow;
@@ -131,11 +145,13 @@ body {
 }
 
 @media only screen 
-  and (max-width: 667px) {
+  and (max-width: 900px) {
     .main-menu {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
+    
+    .a2018 { background-position-y: -240px !important;}
 }
 
 @media only screen
@@ -149,7 +165,7 @@ body {
                 "logo-saic"
                 "logo-ars"
                 "down";
-            grid-row-gap: 1rem;
+            grid-row-gap: 0rem;
         }
         .saic-logo {grid-area: logo-saic; place-self: center; margin-bottom: 1em;}
         .ars-logo {grid-area: logo-ars; place-self: center;}
@@ -160,7 +176,7 @@ body {
     }
 
 @media only screen 
-  and (min-device-width: 375px) 
+  and (min-device-width: 100px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) {
 
@@ -168,4 +184,6 @@ body {
         display: grid;
         grid-template-columns: 1fr;
     }
+    .a2018 { background-position-y: -240px !important;}
+    .a2019 { background-position-y: -50px !important;}
 }
