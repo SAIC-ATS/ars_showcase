@@ -5,14 +5,14 @@ function loadContent() {
     const year = title_text.substring(title_text.length-4, title_text.length)
 
     const req = new XMLHttpRequest();
-    req.open("GET", '../scripts/image_info.json', true);
+    req.open("GET", '../scripts/image-info.json', true);
     req.send();
     req.onload = parseImageInfo;
 
     function parseImageInfo() {
         const data = JSON.parse(req.responseText);
         for(const d of data) {
-            if(d.year == year){
+            if(d.year == year && d.include){
                 let newGridItem = `
                 <div class="grid-item">
                   <a href="../images/${d.year}/fullsize/${d.filename}" data-lightbox="${d.year}" data-title="${d.alt_text}" data-alt="${d.alt_text}">
