@@ -5,16 +5,6 @@ footer {
     transform: translateX(-50%);
 }
 
-.disposition {
-    text-align: center;
-    font-size: 2rem;
-    font-style: italic;
-    color: black;
-    max-width: max-content;
-    padding: 1em;
-    margin: 0 auto;
-}
-
-.disposition:hover {
-    color: var(--acc-color);
+.statement {
+  margin-top: -2rem !important;
 }

@@ -5,6 +5,17 @@ footer {
     transform: translateX(-50%);
 }
 
+.statement__curator {
+  margin: 0;
+  margin-top: -.25em;
+}
+
+.statement__asst_curator {
+  margin-top: -.2em;
+  margin-bottom: 1em;
+  font-weight: 400;
+}
+
 .disposition {
     text-align: center;
     font-size: 2rem;
