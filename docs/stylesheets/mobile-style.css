@@ -41,6 +41,15 @@
       width: 110px;
     }
 
+    .statement-title-group {
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.1rem;
+      font-family: var(--accent-font);
+      font-weight: 500;
+      margin-top: 3em;
+    }
+
     .ars {
       font-size: .8em;
       font-weight: 400;

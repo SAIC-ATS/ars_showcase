@@ -109,29 +109,45 @@ header a {
 .statement {
   margin: 0 auto;
   width: 100vw;
-  max-width: 70ch;
+  max-width: 80ch;
   padding: 3rem 2rem;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
-.statement__title {
-  text-align: center;
-  font-size: 4rem;
-  font-weight: 400;
+.statement-title-group {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
   font-family: var(--accent-font);
+  font-weight: 500;
+  margin-top: 2em;
 }
 
+.statement__title {
+  font-weight: inherit;
+}
+.statement__year {
+  font-weight: inherit
+}
+.statement__curator {
+  margin: -.25em 0 1em 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
 .statement__text {
-  font-size: 1.5rem;
+  font-size: 1.05rem;
+}
+
+.statement__text p {
+  margin-bottom: .75em;
 }
 
 #grid-container {
     /* background: #fcc; */
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: .5rem;
     padding: .5rem;
 }
@@ -140,7 +156,7 @@ header a {
   object-fit: cover;
   display: block;
   height: 40vmin;
-  min-height: 300px;
+  max-height: 300px;
   overflow: hidden;
 }
 

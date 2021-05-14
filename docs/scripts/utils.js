@@ -5,10 +5,10 @@ lightbox.option({
     'wrapAround': true,
     'alwaysShowNavOnTouchDevices': true,
     'disableScrolling': true,
-    'fadeDuration': 300,
-    'imageFadeDuration': 50,
+    'fadeDuration': 500,
+    'imageFadeDuration': 500,
     'showImageNumberLabel': false,
-    'positionFromTop': 100,
+    'positionFromTop': 80,
   })
   
   ///////// SCROLL TO TOP
