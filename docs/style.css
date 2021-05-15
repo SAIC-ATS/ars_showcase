@@ -17,14 +17,15 @@ body {
   background: salmon;
   padding: 2rem;
 }
-.contact {
+
+.home-contact {
   text-align: center;
   font-size: 2rem;
   text-decoration: none;
   color: white;
   font-weight: 500;
 }
-.contact:hover {
+.home-contact:hover {
   color: black;
 }
 
@@ -50,12 +51,12 @@ body {
 
 .home-title {
     font-weight: 500;
-    font-size: clamp(1.85rem, 4vmin, 3em);
+    font-size: clamp(1.85rem, 4vmin, 5rem);
     grid-area: title;
 }
 .home-subtitle {
     font-weight: 300;
-    font-size: clamp(1.725rem, 4vmin, 2.5rem);
+    font-size: clamp(1.725rem, 4vmin, 5rem);
     grid-area: subtitle;
 }
 .home-saic {
@@ -91,14 +92,14 @@ body {
 }
 
 
-.main-menu {
+.year-menu {
     display: grid;
     grid-gap: 0;
     grid-template-columns: repeat(4, 1fr);
     height: 100%;
 }
 
-.main-menu a {
+.year-menu a {
     margin: unset;
     position: relative;
     text-decoration: none;
@@ -108,7 +109,7 @@ body {
     background-position: center;
 }
 
-.main-menu h3 {
+.year-menu h3 {
   font-weight: 300;
 }
 

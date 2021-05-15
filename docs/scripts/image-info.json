@@ -3,21 +3,21 @@
     "filename": "1.jpg",
     "alt_text": "Ars Electronica 2018, image 1",
     "year": "2018",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "2.jpg",
     "alt_text": "Ars Electronica 2018, image 2",
     "year": "2018",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "3.jpg",
     "alt_text": "Ars Electronica 2018, image 3",
     "year": "2018",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
@@ -25,7 +25,7 @@
     "alt_text": "Ars Electronica 2018, image 4",
     "year": "2018",
     "type": "exhibition",
-    "include": true
+    "include": false
   },
   {
     "filename": "5.jpg",
@@ -53,7 +53,7 @@
     "alt_text": "Ars Electronica 2018, image 8",
     "year": "2018",
     "type": "exhibition",
-    "include": true
+    "include": false
   },
   {
     "filename": "9.jpg",
@@ -290,7 +290,7 @@
     "filename": "42.jpg",
     "alt_text": "Ars Electronica 2018, image 42",
     "year": "2018",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
@@ -298,209 +298,209 @@
     "alt_text": "Ars Electronica 2018, image 43",
     "year": "2018",
     "type": "exhibition",
-    "include": true
+    "include": false
   },
   {
     "filename": "1.jpg",
     "alt_text": "Ars Electronica 2019, image 1",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "2.jpg",
     "alt_text": "Ars Electronica 2019, image 2",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "3.jpg",
     "alt_text": "Ars Electronica 2019, image 3",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "4.jpg",
     "alt_text": "Ars Electronica 2019, image 4",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "5.jpg",
     "alt_text": "Ars Electronica 2019, image 5",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "6.jpg",
     "alt_text": "Ars Electronica 2019, image 6",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "7.jpg",
     "alt_text": "Ars Electronica 2019, image 7",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "8.jpg",
     "alt_text": "Ars Electronica 2019, image 8",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "9.jpg",
     "alt_text": "Ars Electronica 2019, image 9",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "10.jpg",
     "alt_text": "Ars Electronica 2019, image 10",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "11.jpg",
     "alt_text": "Ars Electronica 2019, image 11",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "12.jpg",
     "alt_text": "Ars Electronica 2019, image 12",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "13.jpg",
     "alt_text": "Ars Electronica 2019, image 13",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "14.jpg",
     "alt_text": "Ars Electronica 2019, image 14",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "15.jpg",
     "alt_text": "Ars Electronica 2019, image 15",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "16.jpg",
     "alt_text": "Ars Electronica 2019, image 16",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "17.jpg",
     "alt_text": "Ars Electronica 2019, image 17",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "18.jpg",
     "alt_text": "Ars Electronica 2019, image 18",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "19.jpg",
     "alt_text": "Ars Electronica 2019, image 19",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "20.jpg",
     "alt_text": "Ars Electronica 2019, image 20",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "21.jpg",
     "alt_text": "Ars Electronica 2019, image 21",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "22.jpg",
     "alt_text": "Ars Electronica 2019, image 22",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "23.jpg",
     "alt_text": "Ars Electronica 2019, image 23",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "24.jpg",
     "alt_text": "Ars Electronica 2019, image 24",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "25.jpg",
     "alt_text": "Ars Electronica 2019, image 25",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "26.jpg",
     "alt_text": "Ars Electronica 2019, image 26",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "27.jpg",
     "alt_text": "Ars Electronica 2019, image 27",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "28.jpg",
     "alt_text": "Ars Electronica 2019, image 28",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
     "filename": "29.jpg",
     "alt_text": "Ars Electronica 2019, image 29",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {
@@ -521,7 +521,7 @@
     "filename": "32.jpg",
     "alt_text": "Ars Electronica 2019, image 32",
     "year": "2019",
-    "type": "exhibition",
+    "type": "setup",
     "include": true
   },
   {

@@ -6,51 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../lib/jquery-3.6.0.min.js"></script>
     <script src="../lib/lightbox.js"></script>
-    <link rel="stylesheet" href="../stylesheets/desktop-style.css">
-    <link rel="stylesheet" href="../stylesheets/mobile-style.css">
+    <link rel="stylesheet" href="../stylesheets/main.css">
+    <link rel="stylesheet" href="../stylesheets/topnav.css">
+    <link rel="stylesheet" href="../stylesheets/ars-year.css">
     <link rel="stylesheet" href="../lib/lightbox.css">
     <title>ATS @ Ars Electronica 2018</title>
 </head>
 <body>
-    <div class="wrapper">
-      <header>
-        <a href=".." class="header__left">
-          <img src="../images/logos/saic_logo_sm.png" class="saic-logo">
-          <div class="at">+</div>
-          <div class="ars">Ars Electronica</div>
+  <div class="container-topnav">
+    <header class="topnav">
+      <div class="topnav__left">
+        <a href=".." class="topnav__left-logos-link">
+          <img src="../images/logos/saic-logo-white-sm.png" class="topnav__left-saic-logo">
+          <div class="topnav__left-spinner">+</div>
+          <img src="../images/logos/ars-logo-white.png" class="topnav__left-ars-logo">
         </a>
-        <div class="header__right">
-          <a href="mailto:ats@saic.edu" target="_blank" class="contact">Contact</a>
-          <nav class="main-menu">
-            <a href="..">Home</a>
-            <a href="." class="current-page">2018</a>
-            <a href="../2019">2019</a>
-            <a href="../2020">2020</a>
-            <a href="../2021">2021</a>
-          </nav>
+      </div>
+      <div class="topnav__right">
+        <div class="topnav__right-hamburger">
+          <div class="topnav__right-hamburger-patty"></div>
         </div>
-      </header>
+      </div>
+    </header>
+    <div class="topnav__dropdown-menu-container">
+      <nav class="topnav__dropdown-menu">
+        <a href=".." class="topnav__dropdown-menu-item">Home</a>
+        <a href="." class="topnav__dropdown-menu-item">2018</a>
+        <a href="../2019" class="topnav__dropdown-menu-item">2019</a>
+        <a href="../2020" class="topnav__dropdown-menu-item">2020</a>
+        <a href="../2021" class="topnav__dropdown-menu-item">2021</a>
+        <a href="mailto:ats@saic.edu" target="_blank" class="topnav__dropdown-menu-item">Contact</a>
+      </nav>
     </div>
-    <main>
-      <section class="statement">
-        <div class="statement-title-group">
-          <h2 class="statement__title">Disruptive Generation</h2>
-          <h2 class="statement__year">2018</h2>
-        </div>
-        <h4 class="statement__curator">Curated by Duncan Bass</h4>
-        <div class="statement__text">
-          <p>Exposing foundational structures of nature and society, from the monumental to the immaterial, the works assembled in Disruptive Generation question the role of technology in constructing and mediating these realities as well as its capacity to undermine or transcend them. Each of these projects highlights the relationship between archetype and prototype, disrupting the cultural and computational systems that dictate our contemporary experiences in order to render space for alternative futures.</p>
+  </div>
+    
 
-          <p><i>Disruptive Generation</i> showcases work by recent graduates of the Art and Technology Studies department at the School of the Art Institute of Chicago (SAIC), including Ziv Ze’ev Cohen, GREYMAR (Igraine Grey + Jonatan Martinez), Changyeob (C.Y.) Ok, Santiago X, and Li Yao.</p>
-        </div>
-      </section>
-        <div id="grid-container"></div>
-    </main>
-    <footer>SAIC © <span class="current-year">2021</span></footer>
-    <div class="back-to-top"></div>
+  <div class="container-text">
+    <div class="text">
+      <div class="text__title-group">
+        <h2 class="title-group__title">Disruptive Generation</h2>
+        <h2 class="title-group__year">2018</h2>
+      </div>
+      <h3 class="text__curator">Curated by Duncan Bass</h3>
+      <div class="text__statement">
+        <p>Exposing foundational structures of nature and society, from the monumental to the immaterial, the works assembled in <i>Disruptive Generation</i> question the role of technology in constructing and mediating these realities as well as its capacity to undermine or transcend them. Each of these projects highlights the relationship between archetype and prototype, disrupting the cultural and computational systems that dictate our contemporary experiences in order to render space for alternative futures.</p>
+        <p><i>Disruptive Generation</i> showcases work by recent graduates of the Art and Technology Studies department at the School of the Art Institute of Chicago (SAIC), including Ziv Ze’ev Cohen, GREYMAR (Igraine Grey + Jonatan Martinez), Changyeob (C.Y.) Ok, Santiago X, and Li Yao.</p>
+      </div>
+    </div>
+  </div>
+  <div id="grid-container"></div>
+    
+  <footer>SAIC © <span class="current-year">2021</span></footer>
+  <div class="back-to-top"></div>
 
 
-    <script src="../scripts/gallery-generator.js"></script>
-    <script src="../scripts/utils.js"></script>
+  <script src="../scripts/gallery-generator.js"></script>
+  <script src="../scripts/lightbox-options.js"></script>
+  <script src="../scripts/utils.js"></script>
 </body>
 </html>

@@ -13,13 +13,14 @@ function loadContent() {
         const data = JSON.parse(req.responseText);
         for(const d of data) {
             if(d.year == year && d.include){
-                let newGridItem = `
-                <div class="grid-item">
-                  <a href="../images/${d.year}/fullsize/${d.filename}" data-lightbox="${d.year}" data-title="${d.alt_text}" data-alt="${d.alt_text}">
-                    <img src="../images/${d.year}/thumbs/${d.filename}" alt="${d.alt_text}" class="grid-img">
-                  </a>
-                </div>`
-                $('#grid-container').append(newGridItem);
+              let gridOrder = (d.type == "exhibition" ? 1 : 2);
+              let newGridItem = `
+              <div class="grid-item" style="order: ${gridOrder};">
+                <a href="../images/${d.year}/fullsize/${d.filename}" data-lightbox="${d.year}" data-title="${d.alt_text}" data-alt="${d.alt_text}">
+                  <img src="../images/${d.year}/thumbs/${d.filename}" alt="${d.alt_text}" class="grid-img">
+                </a>
+              </div>`
+              $('#grid-container').append(newGridItem);
             }
         }
     }
