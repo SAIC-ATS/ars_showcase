@@ -169,7 +169,7 @@
 
 @media only screen
 and (max-width: 800px) {
-  .container__bottom-year-menu {
+  .container-bottom__year-menu {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -188,7 +188,7 @@ and (max-width: 500px) {
   .home__logos {
     justify-content: center;
   }
-  .container__bottom-year-menu {
+  .container-bottom__year-menu {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
@@ -223,7 +223,7 @@ and (max-width: 500px) {
     .home__logos > * {
       margin: 1em 0;
     }
-    .container__bottom-year-menu {
+    .container-bottom__year-menu {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(4, 1fr);
@@ -260,7 +260,7 @@ and (max-width: 500px) {
     .home__logos > * {
       margin: 1em 0;
     }
-    .container__bottom-year-menu {
+    .container-bottom__year-menu {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: 1fr;
