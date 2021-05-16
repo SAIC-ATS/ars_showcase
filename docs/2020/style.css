@@ -33,9 +33,18 @@ footer {
 @media only screen
   and (max-width: 500px) {
     
-    .disposition-link {
-      font-size: 1.25rem;
-    }
+  .disposition-link {
+    font-size: 1.25rem;
+  }
+  
+  footer {
+    position: static;
+    text-align: center;
+    margin-top: -2rem;
+    padding: .5rem;
+    font-size: .75rem;
+    transform: unset;
+  }
 }
 
 /* iPhone */
@@ -45,9 +54,18 @@ footer {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     
-    .disposition-link {
-      font-size: 1.25rem;
-    }
+  .disposition-link {
+    font-size: 1.25rem;
+  }
+
+  footer {
+    position: static;
+    text-align: center;
+    margin-top: -2rem;
+    padding: .5rem;
+    font-size: .75rem;
+    transform: unset;
+  }
 }
 
 @media only screen 
@@ -56,7 +74,16 @@ footer {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     
-    .disposition-link {
-      font-size: 1.25rem;
-    }
+  .disposition-link {
+    font-size: 1.25rem;
+  }
+
+  footer {
+    position: static;
+    text-align: center;
+    margin-top: -2rem;
+    padding: .5rem;
+    font-size: .75rem;
+    transform: unset;
+  }
 }
