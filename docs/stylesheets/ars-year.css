@@ -6,6 +6,7 @@
     place-items: center;
     min-height: 100vh;
     padding-bottom: 4rem;
+    line-height: 1.4;
 }
 
 .text {

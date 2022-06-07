@@ -1,2 +1,2 @@
 # ars_showcase
-Website showcasing SAIC's involvement with Ars Electronica 2018, 2019 and 2020
+Website showcasing SAIC's participation in the Ars Electronica Art and Technology Festival since 2018

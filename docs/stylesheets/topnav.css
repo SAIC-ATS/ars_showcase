@@ -35,7 +35,7 @@
 .topnav__left-spinner {
     font-weight: 300;
     font-size: 2.5rem;
-    animation: rotate 4s 1s 2 alternate ease-in-out;
+    animation: rotate 4s 1s 3 alternate forwards ease-in-out;
 }
   
 @keyframes rotate {

@@ -1,3 +1,6 @@
+calculateHeroMargin();
+
+
 ////////// DROPDOWN MENU
 $('.topnav__right-hamburger').click(function(){
     $('.topnav__dropdown-menu-container').slideToggle(400);
@@ -37,6 +40,8 @@ function setGalleryMenuHeight() {
   $('.container__bottom').css('padding-top', `${topnavHeight}px`);
 
   scrollBottomOnResize();
+  calculateHeroMargin();
+  
 }
 
 function scrollBottomOnResize() {
@@ -46,3 +51,14 @@ function scrollBottomOnResize() {
     }, 0);
   }
 }
+
+
+//////// HERO IMAGE
+
+function calculateHeroMargin() {
+  const topnavHeight = document.querySelector('.container-topnav').offsetHeight;
+  $('.hero-image').css('margin-top', `${topnavHeight}px`);
+}
+
+
+$('.current-year').text(`${new Date().getFullYear()}`)

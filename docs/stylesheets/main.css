@@ -32,6 +32,14 @@ body {
     color: var(--color-fg);
 }
 
+a {
+  color: var(--color-acc);
+}
+
+a:hover {
+  color: var(--color-acc-a6);
+}
+
 .back-to-top {
     position: fixed;
     z-index: 999;
@@ -77,4 +85,18 @@ body {
 .show {
     opacity: 1;
     visibility: visible;
+}
+
+.hero-image {
+  display: block;
+  max-width: 100%;
+}
+
+.hero-video {
+  display: block;
+  width: 100%;
+  max-width: 1280px;
+  padding-top: 2rem;
+  padding-bottom: 12rem;
+  margin: 0 auto;
 }
