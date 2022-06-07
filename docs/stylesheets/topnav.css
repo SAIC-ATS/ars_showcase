@@ -37,6 +37,10 @@
     font-size: 2.5rem;
     animation: rotate 4s 1s 3 alternate forwards ease-in-out;
 }
+
+.topnav__left a:hover {
+  color: var(--color-bg);
+}
   
 @keyframes rotate {
     0% {transform: rotateZ(0deg);}
