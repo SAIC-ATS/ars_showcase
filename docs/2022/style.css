@@ -1,13 +1,10 @@
-footer {
+/* footer {
     position: fixed;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-}
+} */
 
-.statement {
-  margin-top: -2rem !important;
-}
 
 
 @media only screen

@@ -135,6 +135,18 @@ footer {
     visibility: visible;
 }
 
+.participating-artists li {
+    display: inline;
+}
+
+.participating-artists li::after {
+    content: " | "
+}
+
+.participating-artists li:last-of-type::after {
+    content: unset;
+}
+
 
 @media only screen
   and (max-width: 500px) {

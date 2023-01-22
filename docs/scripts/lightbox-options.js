@@ -2,12 +2,12 @@
 ////////// LIGHTBOX
 
 lightbox.option({
-    'resizeDuration': 200,
+    'resizeDuration': 0,
     'wrapAround': true,
     'alwaysShowNavOnTouchDevices': true,
     'disableScrolling': true,
     'fadeDuration': 250,
-    'imageFadeDuration': 250,
+    'imageFadeDuration': 0,
     'showImageNumberLabel': false,
     'positionFromTop': 80,
   })
