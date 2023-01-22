@@ -140,6 +140,7 @@ body {
 .a2019 { background-image: url('../images/home/2019.jpg');}
 .a2020 { background-image: url('../images/home/2020.jpg');}
 .a2021 { background-image: url('../images/home/2021.jpg');}
+.a2022 { background-image: url('../images/home/2022.jpg');}
 
 
 .year-menu__item:hover .overlay {
@@ -194,13 +195,12 @@ body {
   color: var(--color-bg);
 }
 
-.a2022::after {
+/* .a2022::after {
   content: "Coming Soon";
   text-align: center;
   position: absolute;
-  /* bottom: 0; */
   transform: translateY(150%);
-}
+} */
 
 footer {
   text-align: center;
