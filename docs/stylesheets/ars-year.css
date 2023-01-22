@@ -10,7 +10,6 @@
 }
 
 .text {
-    width: 100vw;
     max-width: 80ch;
     padding: 0 1rem;
     margin: 0 auto;

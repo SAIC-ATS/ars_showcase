@@ -2,7 +2,8 @@
 .container-topnav {
     position: fixed;
     top: 0;
-    width: 100vw;
+    width: 100%;
+    max-width: 100%;
     z-index: 9999;
 }
 
@@ -12,7 +13,6 @@
     justify-content: space-between;
     padding: .5em;
     position: relative;
-    width: 100%;
     z-index: 999;
 }
 
@@ -140,7 +140,7 @@
 .topnav__dropdown-menu-container {
     position: absolute;
     z-index: 998;
-    width: 100vw;
+    width: 100%;
     top: 100%;
     left: 0;
     box-shadow: 0 6px 30px -18px var(--color-fg-a6);

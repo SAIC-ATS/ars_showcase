@@ -16,7 +16,6 @@ body {
 }
 
 .home__text {
-  width: 100vw;
   max-width: 90ch;
   padding: 0 1rem;
   margin: 0 auto;
@@ -187,13 +186,13 @@ body {
 /* .coming-soon-group__coming-soon {
   
 } */
-.a2022 {
+/* .a2022 {
   position: relative;
 }
 
 .a2022:hover {
   color: var(--color-bg);
-}
+} */
 
 /* .a2022::after {
   content: "Coming Soon";
@@ -241,6 +240,7 @@ and (max-width: 500px) {
   } */
   .a2018 { background-position-y: 290px !important;}
   .a2019 { background-position-y: -100px !important;}
+  .a2022 { background-position-y: -310px !important;}
 }
 
 
@@ -276,6 +276,7 @@ and (max-width: 500px) {
     } */
     .a2018 { background-position-y: 290px !important;}
     .a2019 { background-position-y: -100px !important;}
+    .a2022 { background-position-y: -310px !important;}
 }
 
 @media only screen 
