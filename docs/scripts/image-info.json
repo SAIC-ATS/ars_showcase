@@ -1344,122 +1344,311 @@
     "include": true
   },
   {
-    "filename":"1.jpg",
-    "alt_text":"Ars Electronica 2023, image 1",
-    "year":"2023",
-    "type":"exhibition",
-    "include":true
+    "filename": "1.jpg",
+    "alt_text": "Ars Electronica 2023, image 1",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
   },
-{
-    "filename":"2.jpg",
-    "alt_text":"Ars Electronica 2023, image 2",
-    "year":"2023",
-    "type":"exhibition",
-    "include":true
+  {
+    "filename": "2.jpg",
+    "alt_text": "Ars Electronica 2023, image 2",
+    "year": "2023",
+    "type": "exhibition",
+    "include": false
   },
-{
-    "filename":"3.jpg",
-    "alt_text":"Ars Electronica 2023, image 3",
-    "year":"2023",
-    "type":"exhibition",
-    "include":true
+  {
+    "filename": "3.jpg",
+    "alt_text": "Ars Electronica 2023, image 3",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
   },
-{
-    "filename":"4.jpg",
-    "alt_text":"Ars Electronica 2023, image 4",
-    "year":"2023",
-    "type":"exhibition",
-    "include":true
+  {
+    "filename": "4.jpg",
+    "alt_text": "Ars Electronica 2023, image 4",
+    "year": "2023",
+    "type": "setup",
+    "include": true
   },
-{
-    "filename":"5.jpg",
-    "alt_text":"Ars Electronica 2023, image 5",
-    "year":"2023",
-    "type":"exhibition",
-    "include":true
+  {
+    "filename": "5.jpg",
+    "alt_text": "Ars Electronica 2023, image 5",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
   },
-{
-    "filename":"6.jpg",
-    "alt_text":"Ars Electronica 2023, image 6",
-    "year":"2023",
-    "type":"exhibition",
-    "include":true
+  {
+    "filename": "6.jpg",
+    "alt_text": "Ars Electronica 2023, image 6",
+    "year": "2023",
+    "type": "setup",
+    "include": true
   },
-{
-    "filename":"7.jpg",
-    "alt_text":"Ars Electronica 2023, image 7",
-    "year":"2023",
-    "type":"exhibition",
-    "include":true
+  {
+    "filename": "7.jpg",
+    "alt_text": "Ars Electronica 2023, image 7",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
   },
-{
-    "filename":"8.jpg",
-    "alt_text":"Ars Electronica 2023, image 8",
-    "year":"2023",
-    "type":"exhibition",
-    "include":true
+  {
+    "filename": "8.jpg",
+    "alt_text": "Ars Electronica 2023, image 8",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
   },
-{
-    "filename":"9.jpg",
-    "alt_text":"Ars Electronica 2023, image 9",
-    "year":"2023",
-    "type":"exhibition",
-    "include":true
+  {
+    "filename": "9.jpg",
+    "alt_text": "Ars Electronica 2023, image 9",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
   },
-{
-    "filename":"10.jpg",
-    "alt_text":"Ars Electronica 2023, image 10",
-    "year":"2023",
-    "type":"exhibition",
-    "include":true
+  {
+    "filename": "10.jpg",
+    "alt_text": "Ars Electronica 2023, image 10",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
   },
-{
-    "filename":"11.jpg",
-    "alt_text":"Ars Electronica 2023, image 11",
-    "year":"2023",
-    "type":"exhibition",
-    "include":true
+  {
+    "filename": "11.jpg",
+    "alt_text": "Ars Electronica 2023, image 11",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
   },
-{
-    "filename":"12.jpg",
-    "alt_text":"Ars Electronica 2023, image 12",
-    "year":"2023",
-    "type":"exhibition",
-    "include":true
+  {
+    "filename": "12.jpg",
+    "alt_text": "Ars Electronica 2023, image 12",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
   },
-{
-    "filename":"13.jpg",
-    "alt_text":"Ars Electronica 2023, image 13",
-    "year":"2023",
-    "type":"exhibition",
-    "include":true
+  {
+    "filename": "13.jpg",
+    "alt_text": "Ars Electronica 2023, image 13",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
   },
-{
-    "filename":"14.jpg",
-    "alt_text":"Ars Electronica 2023, image 14",
-    "year":"2023",
-    "type":"exhibition",
-    "include":true
+  {
+    "filename": "14.jpg",
+    "alt_text": "Ars Electronica 2023, image 14",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
   },
-{
-    "filename":"15.jpg",
-    "alt_text":"Ars Electronica 2023, image 15",
-    "year":"2023",
-    "type":"exhibition",
-    "include":true
+  {
+    "filename": "15.jpg",
+    "alt_text": "Ars Electronica 2023, image 15",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
   },
-{
-    "filename":"16.jpg",
-    "alt_text":"Ars Electronica 2023, image 16",
-    "year":"2023",
-    "type":"exhibition",
-    "include":true
+  {
+    "filename": "16.jpg",
+    "alt_text": "Ars Electronica 2023, image 16",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
   },
-{
-    "filename":"17.jpg",
-    "alt_text":"Ars Electronica 2023, image 17",
-    "year":"2023",
-    "type":"exhibition",
-    "include":true
+  {
+    "filename": "17.jpg",
+    "alt_text": "Ars Electronica 2023, image 17",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "18.jpg",
+    "alt_text": "Ars Electronica 2023, image 18",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "19.jpg",
+    "alt_text": "Ars Electronica 2023, image 19",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "20.jpg",
+    "alt_text": "Ars Electronica 2023, image 20",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "21.jpg",
+    "alt_text": "Ars Electronica 2023, image 21",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "22.jpg",
+    "alt_text": "Ars Electronica 2023, image 22",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "23.jpg",
+    "alt_text": "Ars Electronica 2023, image 23",
+    "year": "2023",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "24.jpg",
+    "alt_text": "Ars Electronica 2023, image 24",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "25.jpg",
+    "alt_text": "Ars Electronica 2023, image 25",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "26.jpg",
+    "alt_text": "Ars Electronica 2023, image 26",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "27.jpg",
+    "alt_text": "Ars Electronica 2023, image 27",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "28.jpg",
+    "alt_text": "Ars Electronica 2023, image 28",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "29.jpg",
+    "alt_text": "Ars Electronica 2023, image 29",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "30.jpg",
+    "alt_text": "Ars Electronica 2023, image 30",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "31.jpg",
+    "alt_text": "Ars Electronica 2023, image 31",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "32.jpg",
+    "alt_text": "Ars Electronica 2023, image 32",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "33.jpg",
+    "alt_text": "Ars Electronica 2023, image 33",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "34.jpg",
+    "alt_text": "Ars Electronica 2023, image 34",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "35.jpg",
+    "alt_text": "Ars Electronica 2023, image 35",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "36.jpg",
+    "alt_text": "Ars Electronica 2023, image 36",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "37.jpg",
+    "alt_text": "Ars Electronica 2023, image 37",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "38.jpg",
+    "alt_text": "Ars Electronica 2023, image 38",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "39.jpg",
+    "alt_text": "Ars Electronica 2023, image 39",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "40.jpg",
+    "alt_text": "Ars Electronica 2023, image 40",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "41.jpg",
+    "alt_text": "Ars Electronica 2023, image 41",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "42.jpg",
+    "alt_text": "Ars Electronica 2023, image 42",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "43.jpg",
+    "alt_text": "Ars Electronica 2023, image 43",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "44.jpg",
+    "alt_text": "Ars Electronica 2023, image 44",
+    "year": "2023",
+    "type": "exhibition",
+    "include": true
   }
 ]
