@@ -143,7 +143,7 @@ body {
 .a2023 { background-image: url('../images/home/2023.jpg');}
 .a2024 { background-image: url('../images/home/2024.jpg');}
 
-.a2024 { background-position-x: -70px !important;}
+/* .a2024 { background-position-x: -70px !important;} */
 
 
 .year-menu__item:hover .overlay {
@@ -246,7 +246,7 @@ and (max-width: 500px) {
   .a2019 { background-position-y: -100px !important;}
   .a2022 { background-position-y: -310px !important;}
   /* .a2023 { background-position-y: -310px !important;} */
-  .a2024 { background-position-x: -310px !important;}
+  .a2024 { background-position-x: 0 !important;}
 }
 
 
@@ -285,6 +285,7 @@ and (max-width: 500px) {
     .a2022 { background-position-y: -310px !important;}
     /* .a2023 { background-position-y: -310px !important;} */
     /* .a2024 { background-position-x: -310px !important;} */
+    .a2024 { background-position-x: 0 !important;}
 }
 
 @media only screen 
