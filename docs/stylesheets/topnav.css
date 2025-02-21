@@ -36,6 +36,8 @@
     font-weight: 300;
     font-size: 2.5rem;
     animation: rotate 4s 1s 3 alternate forwards ease-in-out;
+    line-height: .5;
+    padding: 0;
 }
 
 .topnav__left a:hover {
@@ -185,7 +187,7 @@
 }
 
 @media only screen
-and (max-width: 950px) {
+and (max-width: 66rem) {
     .topnav__right-visible-menu {
         display: none;
     }
