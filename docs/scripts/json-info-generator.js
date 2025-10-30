@@ -1,6 +1,6 @@
 let myString = "";
-const YEAR = 2024;
-const NUM_IMAGES = 40;
+const YEAR = 2025;
+const NUM_IMAGES = 101;
 
 for(let i = 1; i < NUM_IMAGES+1; i++){
   
